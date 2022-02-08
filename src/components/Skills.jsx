@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 
-import pyimg from "../components/images/pythonimg.png";
-import jsimg from "../components/images/javascriptimg2.png";
-import htmlimg from "../components/images/html5logo.jpg";
-import cssimg from "../components/images/csslogo.png";
-import mongoimg from "../components/images/mngodbimg.png";
-import databasebimg from "../components/images/database.jpg";
-import java from "../components/images/java.png";
-import php from "../components/images/php.png";
+// import pyimg from "../components/images/pythonimg.png";
+// import jsimg from "../components/images/javascriptimg2.png";
+// import htmlimg from "../components/images/html5logo.jpg";
+// import cssimg from "../components/images/csslogo.png";
+// import mongoimg from "../components/images/mngodbimg.png";
+// import databasebimg from "../components/images/database.jpg";
+// import java from "../components/images/java.png";
+// import php from "../components/images/php.png";
 
 class Skills extends Component {
   render() {
