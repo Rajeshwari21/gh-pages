@@ -10,7 +10,7 @@ class WorkExperience extends Component {
   render() {
     return (
       <section id="workexperienceheader">
-        <div>
+        <div className="experience">
           <div className="float-child">
             <img src={pinger} width="100" height="100" title="Pinger" alt="" />
           </div>
@@ -26,7 +26,7 @@ class WorkExperience extends Component {
             </p>
           </div>
         </div>
-        <div>
+        <div className="experience">
           <div className="float-child">
             <img
               src={autodesk}
@@ -48,40 +48,52 @@ class WorkExperience extends Component {
             </p>
           </div>
         </div>
-        <div>
-          <img src={acquia} width="100" height="100" alt="" title="Acquia" />
-          <p>
-            Implemented REST API’s to migrate the data from PHP to Node Js
-            platform & created frontend React components to show these data.
-            Took ownership of the full development life-cycle. Wrote unit tests
-            & Integrated those test scripts with Travis CI in order to check for
-            errors during end-to-end deployment. Implemented caches (e.g
-            Memcache,CDN) to load the contents faster which helped to increase
-            traffic. Gathered and analyzed user data metrics from Google
-            Analytics to improve our SEO performance.
-          </p>
+        <div className="experience">
+          <div className="float-child">
+            <img src={acquia} width="100" height="100" alt="" title="Acquia" />
+          </div>
+          <div className="float-child">
+            <p>
+              Implemented REST API’s to migrate the data from PHP to Node Js
+              platform & created frontend React components to show these data.
+              Took ownership of the full development life-cycle. Wrote unit
+              tests & Integrated those test scripts with Travis CI in order to
+              check for errors during end-to-end deployment. Implemented caches
+              (e.g Memcache,CDN) to load the contents faster which helped to
+              increase traffic. Gathered and analyzed user data metrics from
+              Google Analytics to improve our SEO performance.
+            </p>
+          </div>
         </div>
-        <div>
-          <img src={vb} width="100" height="100" alt="" title="Valuebound" />
-          <p>
-            Developed scalable backend API’s for e-commerce & entertainment web
-            applications. Deployed on AWS server with AWS Auto-Scaling. Built
-            software to evaluate the cost of migration of data from any platform
-            using React, REST, MongoDB & Python Web framework Flask.
-          </p>
+        <div className="experience">
+          <div className="float-child">
+            <img src={vb} width="100" height="100" alt="" title="Valuebound" />
+          </div>
+          <div className="float-child">
+            <p>
+              Developed scalable backend API’s for e-commerce & entertainment web
+              applications. Deployed on AWS server with AWS Auto-Scaling. Built
+              software to evaluate the cost of migration of data from any platform
+              using React, REST, MongoDB & Python Web framework Flask.
+            </p>
+          </div>
         </div>
-        <div>
-          <img
-            src={bs}
-            width="100"
-            height="100"
-            alt=""
-            title="Blisstering Solutions"
-          />
-          <p>
-            Analysed the code and implemented ElasticSearch, which reduced the
-            site’s internal search time from 100ms to 30ms.
-          </p>
+        <div className="experience">
+          <div className="float-child">
+            <img
+              src={bs}
+              width="100"
+              height="100"
+              alt=""
+              title="Blisstering Solutions"
+            />
+          </div>
+          <div className="float-child">
+            <p>
+              Analysed the code and implemented ElasticSearch, which reduced the
+              site’s internal search time from 100ms to 30ms.
+            </p>
+          </div>
         </div>
       </section>
     );

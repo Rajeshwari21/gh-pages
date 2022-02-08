@@ -208,7 +208,15 @@ span:hover{
     transform: scale(1.5);
     
 }
-
+.float-child {
+    padding: 20px;
+}
+.experience {
+    max-width: 727px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
 #mail{
     text-decoration: none;
     color: white;
