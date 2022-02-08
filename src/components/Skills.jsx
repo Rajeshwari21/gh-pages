@@ -44,7 +44,7 @@ class Skills extends Component {
           />
         </div>
         <div>
-          <img src={cssimg} width="100" height="100" alt="css" title="" css />
+          <img src={cssimg} width="100" height="100" alt="css" title="css" />
         </div>
         <div>
           <img
